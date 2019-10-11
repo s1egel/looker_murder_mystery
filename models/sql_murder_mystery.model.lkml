@@ -13,6 +13,7 @@ persist_with: sql_murder_mystery_default_datagroup
 explore: crime_scene_report {}
 
 explore: person {
+  label: "Evidence Database"
   join: drivers_license {
     relationship: one_to_one
     type: left_outer
