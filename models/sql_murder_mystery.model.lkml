@@ -5,6 +5,8 @@ include: "/views/**/*.view"
 
 explore: crime_scene_report {}
 
+
+
 explore: person {
   label: "Evidence Database"
   join: drivers_license {
